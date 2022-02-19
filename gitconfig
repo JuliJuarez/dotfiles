@@ -49,3 +49,6 @@
 
 [pull]
   rebase = false
+[user]
+	email = juulijuarez@gmail.com
+	name = juliana juarez
