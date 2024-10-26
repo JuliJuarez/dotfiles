@@ -9,7 +9,6 @@
     "editor.detectIndentation": false,
     "editor.fontSize": 14,
     "editor.guides.bracketPairs": true,
-    "editor.minimap.enabled": false,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.renderControlCharacters": true,
     "editor.rulers":
@@ -44,8 +43,8 @@
         "coverage": true,
         "dist": true,
         "log": true,
-        "node_modules": true,
-        "public/packs": true,
+        "node_modules": false,
+        "public/packs": false,
         "tmp": true
     },
     "files.hotExit": "off",
@@ -61,8 +60,7 @@
         "**/tmp/**": true,
         "**/vendor/**": true
     },
-    "git.enabled": false,
-    "python.defaultInterpreterPath": "~/.pyenv/shims/python",
+    "python.defaultInterpreterPath": "/Users/julianajuarez/.pyenv/versions/3.10.6/envs/lewagon",
     "python.formatting.provider": "yapf",
     "python.terminal.activateEnvironment": false,
     "ruby.lint":
@@ -75,5 +73,12 @@
     "workbench.settings.editor": "json",
     "workbench.settings.openDefaultSettings": true,
     "workbench.settings.useSplitJSON": true,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "files.autoSave": "afterDelay",
+    "editor.minimap.enabled": false,
+    "gitlens.advanced.messages": {
+      "suppressGitDisabledWarning": true
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "editor.stickyScroll.enabled": false
 }
